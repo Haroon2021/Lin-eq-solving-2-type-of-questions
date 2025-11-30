@@ -38,7 +38,8 @@ form.addEventListener("submit", (e) => {
   const partFour = document.createElement("p");
 
   partFour.textContent = `
-            c = ${y} - ${m * x}`;
+            c = ${y} - ${m * x}
+            c = ${y - m * x}`;
 
   partThree.append(partFour);
 
