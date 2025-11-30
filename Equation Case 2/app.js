@@ -67,6 +67,7 @@ form.addEventListener("submit", (e) => {
 
   const partNine = document.createElement("p");
   partNine.textContent = `
+  c = ${y1} - ${ m * x1} 
   c = ${y1 - m * x1}  `;
   partEight.append(partNine);
 
